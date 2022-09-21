@@ -2,7 +2,27 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&family=Lora:ital,wght@1,400;1,500;1,600;1,700&family=Varela+Round&display=swap');
+
 * {
     margin: 0;
-    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Josefin Sans', "sans-serif";
+}
+
+@layer base {
+    span {
+        @apply font-font1
+    }
+}
+
+@layer components {
+    .sidebar-title {
+       @apply m-2.5 p-1.5 w-4/5 border-t border-b border-custom1 font-font3 font-semibold  text-sidebar-title text-xs text-center
+    }
+    .sidebar_list-item {
+        @apply inline-block w-2/4 mt-3.5 cursor-pointer
+    }
+    .post-cat {
+        @apply font-font3 text-post-colour text-xs mt-3 mr-3;
+    }
 }
