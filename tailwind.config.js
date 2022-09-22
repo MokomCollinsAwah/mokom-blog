@@ -18,6 +18,9 @@ module.exports = {
       gray3: "#444",
       red: "red",
       white: "white",
+      teal: "teal",
+      tomato: "tomato",
+      color1: "#b39656",
     },
   },
 
