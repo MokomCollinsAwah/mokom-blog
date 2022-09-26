@@ -21,6 +21,8 @@ module.exports = {
       teal: "teal",
       tomato: "tomato",
       color1: "#b39656",
+      lightcoral: "lightcoral",
+      gradientcolor: "rgba(255,255,255,0.5)",
     },
   },
 
